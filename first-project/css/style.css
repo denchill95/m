@@ -38,7 +38,8 @@ body {
   margin: 0;
 }
 .product-list-item {
-  position: relative;
+    position: relative;
+    
 }
 .product-list-item:before {
   content: "";
@@ -48,7 +49,8 @@ body {
   position: absolute;
   top: 7px;
   left: -40px;
-  background-image: url('img/check_icon_346%20(2).png');
+background-image: url('../img/check_icon_346%20(2).png');
+background-repeat: no-repeat;
 }
 .product-photo {
   display: block;
@@ -146,7 +148,7 @@ body {
   height: 20px;
   border: 5px solid #445161;
   background-color: #445161;
-  background-image: url('img/layer_2_56.png');
+  background-image: url('../img/layer_2_56.png');
   position: absolute;
   top: 5px;
   left: 0px;
@@ -171,8 +173,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: space-between;
-  min-height: 323px;
 }
 .screenshots-item {
   display: flex;
@@ -180,7 +180,7 @@ body {
   justify-content: space-between;
   box-sizing: border-box;
   width: 49%;
-  margin: 0;
+  margin: 0 0 30px 0;
 }
 .screenshots-item-title {
   display: block;
@@ -230,13 +230,13 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  min-height: 232px;
 }
 .reviews-item {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 49%;
+    margin: 0 0 20px 0;
 }
 .reviews-item-photo {
   display: block;
@@ -311,7 +311,8 @@ body {
   padding: 0 0 5px 0;
 }
 .buy-item-price-cost {
-  margin: 0;
+  display: block;
+margin: 0;
   padding: 15px 0 15px 0;
   text-align: center;
   font-size: 40px;
@@ -342,6 +343,7 @@ body {
   text-decoration: none;
   text-align: center;
   padding: 12px;
+    text-transform: uppercase;
 }
 .buy-item-price-button:hover {
   background-color: red;
@@ -468,16 +470,28 @@ body {
   left: -30px;
 }
 .contacts-list-item:nth-of-type(1):before {
-  background-image: url(img/skype_icon_319.png);
+  background-image: url('../img/skype_icon_319.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
 }
 .contacts-list-item:nth-of-type(2):before {
-  background-image: url(img/icq_icon_324.png);
+  background-image: url('../img/icq_icon_324.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
 }
 .contacts-list-item:nth-of-type(3):before {
-  background-image: url(img/email_icon_332.png);
+  background-image: url('../img/email_icon_332.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
 }
 .contacts-list-item:nth-of-type(4):before {
-  background-image: url(img/phone_icon_337.png);
+  background-image: url('../img/phone_icon_337.png');
+    background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
 }
 .contacts-social-network {
   display: flex;
@@ -492,7 +506,7 @@ body {
   text-align: center;
 }
 .sprite {
-  background-image: url('img/social_buttons_338.png');
+  background-image: url('../img/social_buttons_338.png');
   background-repeat: no-repeat;
   height: 43px;
   width: 43px;
